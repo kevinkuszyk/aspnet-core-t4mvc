@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F959C119-C5A4-423E-97C0-E5E692A060A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{291A9D35-D2E9-4663-8EAB-E4CBAA1E2A88}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet Core T4MVC", "src\AspNet Core T4MVC\AspNet Core T4MVC.xproj", "{9EB0EBAF-AE79-4042-8C14-7B40423AB061}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EB0EBAF-AE79-4042-8C14-7B40423AB061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB0EBAF-AE79-4042-8C14-7B40423AB061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB0EBAF-AE79-4042-8C14-7B40423AB061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB0EBAF-AE79-4042-8C14-7B40423AB061}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9EB0EBAF-AE79-4042-8C14-7B40423AB061} = {F959C119-C5A4-423E-97C0-E5E692A060A3}
+	EndGlobalSection
+EndGlobal
