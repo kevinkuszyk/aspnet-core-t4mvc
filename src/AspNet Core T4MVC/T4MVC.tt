@@ -2811,7 +2811,7 @@ class Manager
             if (templateProjectItem.ProjectItems == null)
                 return;
             base.Process(split);
-            projectSyncAction.EndInvoke(projectSyncAction.BeginInvoke(generatedFileNames, null, null));
+            projectSyncAction(generatedFileNames);
         }
 
         public override bool FileOkToWrite(String fileName)
