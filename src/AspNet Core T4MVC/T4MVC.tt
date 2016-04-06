@@ -2654,7 +2654,7 @@ abstract class XmlSettings : XmlSettingsBase
             }
 
             var item = this.ProjectItem.Collection.AddFromFile(this.SettingsFile);
-            item.Properties.Item("ItemType").Value = "None";
+            // item.Properties.Item("ItemType").Value = "None";
         } else
             TT.Error("Cannot save settings file! " + this.SettingsFile);
     }
